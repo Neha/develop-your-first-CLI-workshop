@@ -1,4 +1,4 @@
-# develop-your-first-CLI-workshop
+# Develop-your-First-CLI-Workshop
 This repo is the step-by-step guide to develop the CLI in Nodejs.
 
 # Agenda
