@@ -4,10 +4,10 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 
 # :calendar: Event Details
 
-- _Event_ Name: Web Developers Day 4 by Google Developer Group, New Delhi
-- _Date_: 28th April 2019
-- _Location_: 91Sprinrboard, Gurgaon
-- _Event Link_: [GDG Event Page](https://www.meetup.com/GDGNewDelhi/events/260830507/)
+- **Event Name**: Web Developers Day 4 by Google Developer Group, New Delhi
+- **Date**: 28th April 2019
+- **Location**: 91Sprinrboard, Gurgaon
+- **Event Link**: [GDG Event Page](https://www.meetup.com/GDGNewDelhi/events/260830507/)
 
 # :memo: Agenda
 
