@@ -4,10 +4,10 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 
 # :calendar: Event Details
 
-- Event Name: Web Developers Day 4 by Google Developer Group, New Delhi
-- Date: 28th April 2019
-- Location: 91Sprinrboard, Gurgaon
-- Event Link: TBD
+- _Event_ Name: Web Developers Day 4 by Google Developer Group, New Delhi
+- _Date_: 28th April 2019
+- _Location_: 91Sprinrboard, Gurgaon
+- _Event Link_: [GDG Event Page](https://www.meetup.com/GDGNewDelhi/events/260830507/)
 
 # :memo: Agenda
 
@@ -21,12 +21,12 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 
 # Content
 
-1. [Walkthrough of Nodejs, CLI , and Project](#zero-walkthrough-theory)
-2. Setup your machine - nodejs, folder structure, package.json
-3. Create your data
-4. Install require package and print your first message
-5. Write the code
-6. Publish the NPM
+0. [Walkthrough of Nodejs, CLI , and Project](#zero-walkthrough-theory)
+1. [Setup your machine - nodejs, folder structure, package.json](#one-setup-your-machine-codelab)
+1. [Create your data](#two-create-your-data-codelab)
+1. [Install require package and print your first message](#three-code-time-codelab)
+1. [Write the code](#four-beautification)
+1. [Publish the NPM](#five-publish-npm-codelab)
 
 # :bell: How to use this repo?
 
