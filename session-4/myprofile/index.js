@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Aboutme = require("./commands/Aboutme");
 const Options = require("./Options");
 const chalk = require("chalk");

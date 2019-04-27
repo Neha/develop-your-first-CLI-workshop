@@ -1,6 +1,6 @@
 # :boom: Develop your First CLI Workshop :boom:
 
-This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is the part of the GDG (Google Developer Groups), New Delhi.
+This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is the part of the GDG (Google Developer Groups), New Delhi/Gurgaon.
 
 # :calendar: Event Details
 
@@ -9,7 +9,7 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 - **Location**: 91Sprinrboard, Gurgaon
 - **Event Link**: [GDG Event Page](https://www.meetup.com/GDGNewDelhi/events/260830507/)
 
-# :heavy_exclamation_mark: Prerequists :heavy_exclamation_mark:
+# :heavy_exclamation_mark: Pre-requists :heavy_exclamation_mark:
 
 - :white_check_mark: Knowledge of Javascript
 - :white_check_mark: Knowledge of nodejs
@@ -46,26 +46,26 @@ Introduction to nodejs and CLI.
 
 ## :one: Setup your machine [Codelab]
 
-Folder : `session-1`
+**Folder** : `session-1`
 
 - Install nodejs
-- Create a folder - "resume-cli"
+- Create a folder - "myprofile"
 - Create package.json
 
-  `npm init`
+        `npm init`
 
 ## :two: Create your Data [Codelab]
 
-Folder : `session-2`
+**Folder** : `session-2`
 
-Go to folder `session-2/resume-cli/data`.
+Go to folder `session-2/myprofile/data`.
 If you want to update the content you can edit it in `data.js`
 
 ## :three: Code Time [Codelab]
 
-Folder : `session-3`
+**Folder** : `session-3`
 
-Go to folder `session-3/resume-cli`.
+Go to folder `session-3/myprofile`.
 In this we will identify the commands and add it to the commands folder.
 
 To sync with `data.js` we have following commands (user input) :
@@ -79,7 +79,7 @@ To print the choices on the terminal we will use the npm package `inquirer`.
 
 ## :four: Beautification
 
-Folder : `session-4`
+**Folder** : `session-4`
 
 This section is totally optional.
 To make the CLI' content more colorful and presentable. We will use two more packages:
@@ -92,17 +92,45 @@ To make the CLI' content more colorful and presentable. We will use two more pac
 
 # How to run it?
 
-1. Go to the desire folder. eg :
+1.  Go to the desire folder. eg :
 
-`cd session-2/resume-cli`
+        `cd session-2/myprofile`
 
-2. Install the dependency
+2.  Install the dependency
 
-`npm install`
+        `npm install`
 
-3. From the root of the `resume-cli` run the following command to start the application
+3.  From the root of the `myprofile` run the following command to start the application
 
-   `node index.js`
+        `node index.js`
+
+**If you are only interested in the end code then clone the `session-4` folder.**
+
+# How to make it Executable?
+
+1.  Add `#!/usr/bin/env node` on the top of `index.js`.
+2.  In `package.json`, add section of `bin`
+
+        `"bin": {
+            "myprofile": "./index.js"
+        }`
+
+3.  Now go to the terminal and write
+
+         `myprofile`
+
+# Publish to NPM
+
+1.  Create an account in npmjs.com
+2.  On terminal run the following command & enter the username and password.
+
+        `npm login`
+
+3.  To publish
+
+        `npm publish`
+
+    You can check your package after publishing : https://www.npmjs.com/~{username}/{package-name}
 
 # :hearts: Collabrations
 
