@@ -1,4 +1,4 @@
-# :boom: Develop-your-First-CLI-Workshop :boom:
+# :boom: Develop your First CLI Workshop :boom:
 
 This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is the part of the GDG (Google Developer Groups), New Delhi.
 
@@ -9,7 +9,7 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 - **Location**: 91Sprinrboard, Gurgaon
 - **Event Link**: [GDG Event Page](https://www.meetup.com/GDGNewDelhi/events/260830507/)
 
-# :heavy_exclamation_mark: prerequists :heavy_exclamation_mark:
+# :heavy_exclamation_mark: Prerequists :heavy_exclamation_mark:
 
 - :white_check_mark: Knowledge of Javascript
 - :white_check_mark: Knowledge of nodejs
