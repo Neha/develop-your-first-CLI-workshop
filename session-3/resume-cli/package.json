@@ -1,0 +1,15 @@
+{
+  "name": "resume-cli",
+  "version": "1.0.0",
+  "description": "resume cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "neha",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "node": "^11.14.0"
+  }
+}

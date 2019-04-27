@@ -1,44 +1,102 @@
 # Develop-your-First-CLI-Workshop
-This repo is the step-by-step guide to develop the CLI in Nodejs.
+
+This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is the part of the GDG (Google Developer Groups), New Delhi.
+
+# Event Details
+
+- Event Name: Web Developers Day 4 by Google Developer Group, New Delhi
+- Date: 28th April 2019
+- Location: 91Sprinrboard, Gurgaon
+- Event Link: TBD
 
 # Agenda
-1. What is nodejs
-2. what is CLI
-3. What we will be creating
-4. Setting folder structure
-5. Package.json
-6. Install packages
-7. Create your data
-8. Write the code
-9. Publish the code
-10. Publish the NPM
+
+1. What is nodejs & CLI
+2. Project walkthrough
+3. Folder structure
+4. Installing package.json
+5. Create your data
+6. Code time
+7. Publish the npm
 
 # Content
+
 1. Walkthrough of Nodejs, CLI , and Project
 2. Setup your machine - nodejs, folder structure, package.json
-3. Print your first message, identify the packages required & Installation
-5. Create your data
-6. Write the code.
-7. Publish the NPM
+3. Create your data
+4. Install require package and print your first message
+5. Write the code
+6. Publish the NPM
+
+# How to use this repo?
+
+This repo is step-by-step guide. You can clone the repo or follow along.Every folder is marked
+below with what is expected in it.
 
 ## Walkthrough [Theory]
 
+Introduction to nodejs and CLI.
+
 ## Setup your machine [Codelab]
 
-## Packages [Codelab]
+Folder : `session-1`
+
+- Install nodejs
+- Create a folder - "resume-cli"
+- Create package.json
+
+  `npm init`
 
 ## Create your Data [Codelab]
 
+Folder : `session-2`
+
+Go to folder `session-2/resume-cli/data`.
+If you want to update the content you can edit it in `data.js`
+
 ## Code Time [Codelab]
+
+Folder : `session-3`
+
+Go to folder `session-3/resume-cli`.
+In this we will identify the commands and add it to the commands folder.
+
+To sync with `data.js` we have following commands (user input) :
+
+- about me
+- contact me
+- experience
+- summary
+
+To print the choices on the terminal we will use the npm package `inquirer`.
+
+## Beautification
+
+Folder : `session-4`
+
+This section is totally optional.
+To make the CLI' content more colorful and presentable. We will use two more packages:
+
+- chalk : will let us provide the colors to the texts.
+- cfonts : will let us write a big fancy welcome message.
+- commander
 
 ## Publish NPM [Codelab]
 
+# How to run it?
 
-# How to use it?
+1. Go to the desire folder. eg :
 
+`cd session-2/resume-cli`
 
-# Workshop
-This repo is the part of the GDG (Google Developer Groups), New Delhi. 
+2. Install the dependency
+
+`npm install`
+
+3. From the root of the `resume-cli` run the following command to start the application
+
+   `node index.js`
 
 # Collabrations
-Collabrations are the awesome way to create small things better, and big. If you see anything which can be improved ? If you see something can be added here?  Before telling to anyone else, raise the PR :) . If you are new to the collabrations and have no idea how to do it. Do not worry, reach to me nsharma215@gmail.com 
+
+Collabrations are the awesome way to create small things better, and big. If you see anything which can be improved ? If you see something can be added here? Before telling to anyone else, raise the PR :) . If you are new to the collabrations and have no idea how to do it. Do not worry, reach to me nsharma215@gmail.com
