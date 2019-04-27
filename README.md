@@ -14,6 +14,7 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 - :white_check_mark: Knowledge of Javascript
 - :white_check_mark: Knowledge of nodejs
 - :white_check_mark: Comfortble working with CLI and IDE
+- :white_check_mark: Github account
 
 # :memo: Agenda
 
