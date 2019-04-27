@@ -21,7 +21,7 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 
 # Content
 
-1. Walkthrough of Nodejs, CLI , and Project
+1. [Walkthrough of Nodejs, CLI , and Project](#zero-walkthrough-theory)
 2. Setup your machine - nodejs, folder structure, package.json
 3. Create your data
 4. Install require package and print your first message
