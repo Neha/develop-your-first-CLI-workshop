@@ -1,15 +1,15 @@
-# Develop-your-First-CLI-Workshop
+# :boom: Develop-your-First-CLI-Workshop :boom:
 
 This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is the part of the GDG (Google Developer Groups), New Delhi.
 
-# Event Details
+# :calendar: Event Details
 
 - Event Name: Web Developers Day 4 by Google Developer Group, New Delhi
 - Date: 28th April 2019
 - Location: 91Sprinrboard, Gurgaon
 - Event Link: TBD
 
-# Agenda
+# :memo: Agenda
 
 1. What is nodejs & CLI
 2. Project walkthrough
@@ -28,16 +28,16 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 5. Write the code
 6. Publish the NPM
 
-# How to use this repo?
+# :bell: How to use this repo?
 
 This repo is step-by-step guide. You can clone the repo or follow along.Every folder is marked
 below with what is expected in it.
 
-## Walkthrough [Theory]
+## :zero: Walkthrough [Theory]
 
 Introduction to nodejs and CLI.
 
-## Setup your machine [Codelab]
+## :one: Setup your machine [Codelab]
 
 Folder : `session-1`
 
@@ -47,14 +47,14 @@ Folder : `session-1`
 
   `npm init`
 
-## Create your Data [Codelab]
+## :two: Create your Data [Codelab]
 
 Folder : `session-2`
 
 Go to folder `session-2/resume-cli/data`.
 If you want to update the content you can edit it in `data.js`
 
-## Code Time [Codelab]
+## :three: Code Time [Codelab]
 
 Folder : `session-3`
 
@@ -70,7 +70,7 @@ To sync with `data.js` we have following commands (user input) :
 
 To print the choices on the terminal we will use the npm package `inquirer`.
 
-## Beautification
+## :four: Beautification
 
 Folder : `session-4`
 
@@ -81,7 +81,7 @@ To make the CLI' content more colorful and presentable. We will use two more pac
 - cfonts : will let us write a big fancy welcome message.
 - commander
 
-## Publish NPM [Codelab]
+## :five: Publish NPM [Codelab]
 
 # How to run it?
 
@@ -97,6 +97,6 @@ To make the CLI' content more colorful and presentable. We will use two more pac
 
    `node index.js`
 
-# Collabrations
+# :hearts: Collabrations
 
 Collabrations are the awesome way to create small things better, and big. If you see anything which can be improved ? If you see something can be added here? Before telling to anyone else, raise the PR :) . If you are new to the collabrations and have no idea how to do it. Do not worry, reach to me nsharma215@gmail.com
