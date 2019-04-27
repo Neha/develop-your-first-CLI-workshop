@@ -14,7 +14,6 @@ const Options = () => {
       }
     ])
     .then((answer) => {
-      console.log(answer);
       if (answer.option == "aboutme") {
         Aboutme();
       }

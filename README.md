@@ -84,11 +84,37 @@ To print the choices on the terminal we will use the npm package `inquirer`.
 This section is totally optional.
 To make the CLI' content more colorful and presentable. We will use two more packages:
 
-- chalk : will let us provide the colors to the texts.
-- cfonts : will let us write a big fancy welcome message.
-- commander
+- [chalk](https://www.npmjs.com/package/chalk) : Will let us provide the colors to the texts.
+- [cfonts](https://www.npmjs.com/package/cfonts) : Will let us write a big fancy welcome message.
+- [inquirer](https://www.npmjs.com/package/inquirer) : Common interactive command line user interfaces.
 
 ## :five: Publish NPM [Codelab]
+
+### How to make it Executable?
+
+1.  Add `#!/usr/bin/env node` on the top of `index.js`.
+2.  In `package.json`, add section of `bin`
+
+        `"bin": {
+            "myprofile": "./index.js"
+        }`
+
+3.  Now go to the terminal and write
+
+         `myprofile`
+
+### Publish to NPM
+
+1.  Create an account in npmjs.com
+2.  On terminal run the following command & enter the username and password.
+
+        `npm login`
+
+3.  To publish
+
+        `npm publish`
+
+    You can check your package after publishing : https://www.npmjs.com/~{username}/{package-name}
 
 # How to run it?
 
@@ -105,32 +131,6 @@ To make the CLI' content more colorful and presentable. We will use two more pac
         `node index.js`
 
 **If you are only interested in the end code then clone the `session-4` folder.**
-
-# How to make it Executable?
-
-1.  Add `#!/usr/bin/env node` on the top of `index.js`.
-2.  In `package.json`, add section of `bin`
-
-        `"bin": {
-            "myprofile": "./index.js"
-        }`
-
-3.  Now go to the terminal and write
-
-         `myprofile`
-
-# Publish to NPM
-
-1.  Create an account in npmjs.com
-2.  On terminal run the following command & enter the username and password.
-
-        `npm login`
-
-3.  To publish
-
-        `npm publish`
-
-    You can check your package after publishing : https://www.npmjs.com/~{username}/{package-name}
 
 # :hearts: Collabrations
 
