@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const Aboutme = require("./commands/Aboutme");
-const Options = require("./Options");
+const Options = require("./options");
 const chalk = require("chalk");
 
 const Index = () => {

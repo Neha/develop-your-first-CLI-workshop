@@ -1,5 +1,5 @@
 const Aboutme = require("./commands/Aboutme");
-const Options = require("./Options");
+const Options = require("./options");
 
 const Index = () => {
   console.log("Welcome to my resume");
