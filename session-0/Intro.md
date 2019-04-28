@@ -33,16 +33,15 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 ## CLI - Command Line Interface
 
-CLI is very popular way to the tasks. Almost everything has CLI. You can run the CLI from the terminal and they register or save in the bin folder of node_module.
+"CLI means interacting with a computer program where the user issues commands to the program in the form of successive lines of text"
 
-### What is in CLI
-
-Javascript code
+CLI is very popular way to do the tasks. You can create the CLI of most of the tasks. You run the CLI from the terminal , you can publish your CLI as an NPM package too. They register or save in the bin folder of node_module.
 
 ## Best Practice of CLI
 
 - Error should be clear.
 - Should be interactive.
+- Should have shortcuts.
 
 ## What we will be building?
 
