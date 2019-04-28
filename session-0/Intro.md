@@ -15,8 +15,8 @@ You can reach me :
 
 - What is nodejs
 - What is CLI
-- Code-lab
 - Best Practice for creating CLI
+- Code-lab
 
 ## nodejs
 
@@ -30,6 +30,8 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 - Timers
 
 ## NPM - Node Package Manager
+
+npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry.
 
 ## CLI - Command Line Interface
 
