@@ -47,4 +47,5 @@ CLI is very popular way to do the tasks. You can create the CLI of most of the t
 
 ## What we will be building?
 
-We will be building a CLI 'My Profile'. CLI will give options to the user to select from and based on the selection the CLI will give the response. The response will be from the JSON file saved in the CLI's code.
+We will be building a CLI 'My Profile'. There will options(commands
+) and use can select any option and CLI will give the response based on the option.
