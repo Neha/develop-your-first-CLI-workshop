@@ -44,6 +44,8 @@ below with what is expected in it.
 
 Introduction to nodejs and CLI.
 
+**Folder** : `session-1/intro.md`
+
 ## :one: Setup your machine [Codelab]
 
 **Folder** : `session-1`
@@ -52,7 +54,7 @@ Introduction to nodejs and CLI.
 - Create a folder - "myprofile"
 - Create package.json
 
-        `npm init`
+        npm init
 
 ## :two: Create your Data [Codelab]
 
@@ -95,24 +97,24 @@ To make the CLI' content more colorful and presentable. We will use two more pac
 1.  Add `#!/usr/bin/env node` on the top of `index.js`.
 2.  In `package.json`, add section of `bin`
 
-        `"bin": {
+        "bin": {
             "myprofile": "./index.js"
-        }`
+        }
 
 3.  Now go to the terminal and write
 
-         `myprofile`
+         myprofile
 
 ### Publish to NPM
 
 1.  Create an account in npmjs.com
 2.  On terminal run the following command & enter the username and password.
 
-        `npm login`
+        npm login
 
 3.  To publish
 
-        `npm publish`
+        npm publish
 
     You can check your package after publishing : https://www.npmjs.com/~{username}/{package-name}
 
@@ -120,15 +122,15 @@ To make the CLI' content more colorful and presentable. We will use two more pac
 
 1.  Go to the desire folder. eg :
 
-        `cd session-2/myprofile`
+        cd session-2/myprofile
 
 2.  Install the dependency
 
-        `npm install`
+        npm install
 
 3.  From the root of the `myprofile` run the following command to start the application
 
-        `node index.js`
+        node index.js
 
 **If you are only interested in the end code then clone the `session-4` folder.**
 
