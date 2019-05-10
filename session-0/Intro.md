@@ -25,7 +25,7 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 ### Features of nodejs
 
 - Non blockng I/O
-- Scalable
+- Scalable\*
 - Event Loop
 - Timers
 
@@ -41,11 +41,12 @@ CLI is very popular way to do the tasks. You can create the CLI of most of the t
 
 ## Best Practice of CLI
 
-- Error should be clear.
-- Should be interactive.
-- Should have shortcuts.
+- Error states should be clear and error messages should be descriptive.
+- CLI should be interactive. End user should able to interact with it.
+- To have the best UX experience, you should provide the shortcut commands to access the CLI and its options.
+- Should have help feature.
 
 ## What we will be building?
 
-We will be building a CLI 'My Profile'. There will options(commands
+We will be building a CLI 'My Profile/ My Resume'. There will options(commands
 ) and use can select any option and CLI will give the response based on the option.
