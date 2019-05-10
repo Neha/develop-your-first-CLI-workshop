@@ -4,10 +4,19 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 
 # :calendar: Event Details
 
-- **Event Name**: Web Developers Day 3 by Google Developer Group, New Delhi
+## April
+
+- **Event Name**: Code-lab : Web Developers Day 3 by Google Developer Group, New Delhi
 - **Date**: 28th April 2019
 - **Location**: 91Springboard, Gurgaon
 - **Event Link**: [GDG Event Page](https://www.meetup.com/GDGNewDelhi/events/260830507/)
+
+## May
+
+- **Event Name**: Code-lab : Develop your First CLI, Bangalore
+- **Date**: 12th May 2019
+- **Location**: Microsoft, Gurgaon
+- **Event Link**: [JSLovers](https://www.meetup.com/jschannel-Bengaluru/events/261067974/)
 
 # :heavy_exclamation_mark: Pre-requists :heavy_exclamation_mark:
 
