@@ -15,8 +15,19 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 
 - **Event Name**: Code-lab : Develop your First CLI, Bangalore
 - **Date**: 12th May 2019
-- **Location**: Microsoft, Gurgaon
+- **Location**: Microsoft, Bangalore
 - **Event Link**: [JSLovers](https://www.meetup.com/jschannel-Bengaluru/events/261067974/)
+
+# Introduction
+
+My name is Neha Sharma. I am working as technical lead. I am the organizer of JSLovers community. I am tech and non-tech speaker. Apart form coding I enjoy doing calligraphy.
+
+You can reach me :
+
+- Twitter : [@hellonehha](https://twitter.com/hellonehha)
+- Linkdin : [@/in/nehha/](https://www.linkedin.com/in/nehha/)
+- Instagram : @calligraphyzen
+- Email : neha@jslovers.com
 
 # :heavy_exclamation_mark: Pre-requists :heavy_exclamation_mark:
 
@@ -28,13 +39,13 @@ This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is t
 
 # :memo: Agenda
 
-1. What is nodejs & CLI
-2. Project walkthrough
-3. Folder structure
-4. Installing package.json
-5. Create your data
-6. Code time
-7. Publish the npm
+1. What is nodejs & CLI [Theory]
+2. Project walkthrough [Theory]
+3. Folder structure [Theory]
+4. Installing package.json [Code]
+5. Create your data [Code]
+6. Code time [Code]
+7. Publish the npm [Code]
 
 # Content
 
@@ -99,19 +110,26 @@ To make the CLI' content more colorful and presentable. We will use two more pac
 - [chalk](https://www.npmjs.com/package/chalk) : Will let us provide the colors to the texts.
 - [cfonts](https://www.npmjs.com/package/cfonts) : Will let us write a big fancy welcome message.
 - [inquirer](https://www.npmjs.com/package/inquirer) : Common interactive command line user interfaces.
+- [commander](https://www.npmjs.com/package/inquirer) : Common interactive command line user interfaces.
 
 ## :five: Publish NPM [Codelab]
 
 ### How to make it Executable?
 
 1.  Add `#!/usr/bin/env node` on the top of `index.js`.
+    Read about it here : https://en.wikipedia.org/wiki/Shebang_%28Unix%29
+
 2.  In `package.json`, add section of `bin`
 
         "bin": {
             "myprofile": "./index.js"
         }
 
-3.  Now go to the terminal and write
+3.  Run the following command
+
+         npm link
+
+4.  Now go to the terminal and write
 
          myprofile
 
